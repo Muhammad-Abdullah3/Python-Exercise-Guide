@@ -1,0 +1,70 @@
+Hello!
+
+We are now in week 33 of our weekly python challenge!
+
+Those who submit an entry will be eligible to win a free copy of Learn Python Programming by Packt! The more weeks you participate, the more chances you get to win!
+
+This time, I have included 4 questions, each at different levels. You only have to do one based on your current skill level, but I encourage you to try all that you can or research how to solve each.
+
+​
+
+Questions:
+
+Very easy:
+
+Create a function that takes voltage and current and returns the calculated power.
+
+Power = Voltage x Current
+
+Examples
+circuit_power(230, 10) ➞ 2300
+
+circuit_power(110, 3) ➞ 330
+
+circuit_power(480, 20) ➞ 9600
+​
+
+Easy:
+
+Create a function that replaces all the vowels in a string with a specified character.
+
+Examples
+replace_vowels("the aardvark", "#") ➞ "th# ##rdv#rk"
+
+replace_vowels("minnie mouse", "?") ➞ "m?nn?? m??s?"
+
+replace_vowels("shakespeare", "*") ➞ "sh*k*sp**r*"
+Notes
+All characters will be in lower case.
+
+​
+
+Medium:
+
+Given three lists of integers: lst1, lst2, lst3, return the sum of integers which are common in all three lists.
+
+Examples
+sum_common([1, 2, 3], [5, 3, 2], [7, 3, 2]) ➞ 5
+// 2 & 3 are common in all 3 lists.
+
+sum_common([1, 2, 2, 3], [5, 3, 2, 2], [7, 3, 2, 2]) ➞ 7
+// 2, 2 & 3 are common in all 3 lists.
+
+sum_common([1], [1], [2]) ➞ 0
+​
+
+Hard:
+
+"Loves me, loves me not" is a traditional game in which a person plucks off all the petals of a flower one by one, saying the phrase "Loves me" and "Loves me not" when determining whether the one that they love, loves them back.
+
+Given a number of petals, return a string which repeats the phrases "Loves me" and "Loves me not" for every alternating petal, and return the last phrase in all caps. Remember to put a comma and space between phrases.
+
+Examples
+loves_me(3) ➞ "Loves me, Loves me not, LOVES ME"
+
+loves_me(6) ➞ "Loves me, Loves me not, Loves me, Loves me not, Loves me, LOVES ME NOT"
+
+loves_me(1) ➞ "LOVES ME"
+Notes
+Remember to return a string.
+The first phrase is always "Loves me".
